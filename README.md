@@ -1,5 +1,25 @@
 # React + TypeScript + Vite
 
+# Product Display App
+
+A simple React + TypeScript app to display product listings.
+
+## 📦 Features
+
+- Product List and Detail view
+- Reusable components
+- Theming with `theme.ts`
+- Vite for fast builds
+
+## 🚀 Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/product-display-app.git
+cd product-display-app
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
