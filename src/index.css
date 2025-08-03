@@ -1,0 +1,68 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* themes.css */
+
+/* Theme 1: Minimalist (Default) */
+/* Theme 1: Forest Theme */
+[data-theme='theme1'] {
+  --header: #065f46;
+  --body: #d1fae5;
+  --text-primary: #1b1b1b;
+  --font-main: 'Helvetica Neue', Arial, sans-serif;
+  --link-border: 1px solid #065f46;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Theme 2: Dark Theme */
+[data-theme='theme2'] {
+  --header: #1f2937;
+  --body: #111827;
+  --text-primary: #f0f0f0;
+  --font-main: Georgia, 'Times New Roman', serif;
+  --link-border: 1px solid #4b5563;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Theme 3: Colorful Theme */
+[data-theme='theme3'] {
+  --header: #ec4899;
+  --body: #8b5cf6;
+  --text-primary: #ffffff;
+  --font-main: 'Pacifico', cursive;
+  --link-border: 1px solid #ffffff;
+  --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  background-color: var(--body);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+p {
+  color: var(--text-primary);
+}
+
+header {
+  background: var(--header);
+  color: var(--text-primary);
+}
+
+header a {
+  text-decoration: none;
+  border: var(--link-border);
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+  color: inherit;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
