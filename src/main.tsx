@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { initTheme } from './theme';
+import { initTheme } from './ThemeSwitcherLogic/theme.ts';
 
 // Initialize theme before rendering app
 initTheme();

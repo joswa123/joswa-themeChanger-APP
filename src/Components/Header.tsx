@@ -1,6 +1,6 @@
 // Header.tsx
 import React, { useEffect, useState } from 'react';
-import { type Theme, getSavedTheme, setTheme } from './theme';
+import { type Theme, getSavedTheme, setTheme } from '../ThemeSwitcherLogic/theme';
 
 const Header = () => {
   const [currentTheme, setCurrentTheme] = useState<Theme>(getSavedTheme());

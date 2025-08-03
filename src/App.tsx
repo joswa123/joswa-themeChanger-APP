@@ -1,7 +1,7 @@
 // import { useState } from 'react'
-import Header from './Header'
-import Home from './Home'
-import ProductList from './ProductList'
+import Header from './Components/Header'
+import Home from './Pages/Home'
+import ProductList from './Components/ProductList'
 import React, { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

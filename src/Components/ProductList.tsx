@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { ProductContext } from './App';
+import { ProductContext } from '../App';
 
 
 
